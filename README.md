@@ -1,1 +1,1 @@
-# Neopixel_WS2812_strip_potentiometer
+# Neopixel WS2812 strip controlled by potentiometer
