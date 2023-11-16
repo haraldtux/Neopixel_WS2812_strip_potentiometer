@@ -1,4 +1,5 @@
-// Lighting control of a small Neopixel strip (8 LEDs) with an ATtiny85 microcontroller and a 10k potentiometer (by Pléyades IT).
+/* Lighting control of a small Neopixel strip (8 LEDs) with an ATtiny85 microcontroller
+and a 10k potentiometer (by Pléyades IT). */
 
 #include <Adafruit_NeoPixel.h>
 
