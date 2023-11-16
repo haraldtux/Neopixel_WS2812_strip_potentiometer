@@ -1,5 +1,5 @@
-/* Lighting control of a small Neopixel strip (8 LEDs) with an ATtiny85 microcontroller
-and a 10k potentiometer (by Pléyades IT). */
+// Lighting control of a small Neopixel strip (8 LEDs) with an ATtiny85 microcontroller and a 10k potentiometer
+// Written by PLÉYADES IT
 
 #include <Adafruit_NeoPixel.h>
 
@@ -7,7 +7,6 @@ and a 10k potentiometer (by Pléyades IT). */
 #define NUMPIXELS 8       // Number of pixels in the strip
 #define BRIGHTNESS 12     // Set brightness (from 0 to 255)
 Adafruit_NeoPixel pixels(NUMPIXELS, PIN, NEO_GRB + NEO_KHZ800);
-
 
 int PotValue = 0;
 int NumeroPixels = 0;
