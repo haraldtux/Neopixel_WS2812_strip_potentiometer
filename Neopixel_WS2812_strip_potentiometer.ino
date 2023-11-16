@@ -1,4 +1,4 @@
-// Enciende LEDs Neopixel de un módulo, uno a uno, con un potenciómetro de 10k.
+// Lighting control of a small Neopixel strip (8 LEDs) with an ATtiny85 microcontroller and a 10k potentiometer (by Pléyades IT).
 #include <Adafruit_NeoPixel.h>
 
 #define PIN 4             // Select digital pin to control de Neopixel module
